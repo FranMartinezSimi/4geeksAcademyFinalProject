@@ -1,0 +1,23 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	border-bottom: 1px solid $light-gray;
+	color: $brand-color;
+}
+
+/* a:active {
+	background-color: red;
+	font-style: overline;
+}
+ */
+
+/* .task-navigation {
+	a {
+		color: #3ea1a273;
+	}
+} */
+
+.inactive-link {
+	color: #3ea1a273;
+}

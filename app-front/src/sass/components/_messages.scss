@@ -1,0 +1,27 @@
+.success {
+	padding: .5rem;
+	margin: .5rem;
+	border: 2px solid #479247;
+	border-radius: 5px;
+	background: #479a474a;
+
+	p {
+		color: #479247;
+	}
+
+	&--chosen {
+		margin-top: 2rem;
+	}
+}
+
+.pending {
+	padding: .5rem;
+	margin: .5rem;
+	border: 2px solid $dark-gray;
+	border-radius: 5px;
+	background: $light-gray;
+
+	p {
+		color: $dark-gray;
+	}
+}

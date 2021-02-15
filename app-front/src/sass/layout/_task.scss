@@ -1,0 +1,95 @@
+.task-holder {
+	display: flex;
+	border-bottom: 1px solid $light-gray;
+
+	h5 {
+		color: $secondary-color;
+		padding-top: 1.5rem;
+	}
+}
+
+.task {
+	color: $dark-gray;
+	padding: 1rem;
+	justify-content: space-between;
+	min-width: 75%;
+
+	&__main {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+
+		&__content {
+			width: 80%;
+			padding-left: .5rem;
+		}
+	}
+
+	&__row {
+		justify-content: space-between;
+	}
+
+	&__details {
+		font-size: 0.65rem;
+		padding: 0.5rem 0;
+		display: flex;
+
+		div {
+			color: $medium-gray;
+			padding-right: 1rem;
+		}
+	}
+	@media (min-width: 992px) {
+		padding: 1rem 4rem;
+	}
+}
+
+.details {
+	align-items: initial;
+	&__header {
+		padding: 1rem;
+		text-align: center;
+		width: 35%;
+		color: $darker-gray;
+		border-bottom: 1px solid $light-gray;
+
+		small {
+			color: white;
+		}
+
+		&--middle {
+			border-left: 1px solid $light-gray;
+			border-right: 1px solid $light-gray;
+		}
+	}
+
+	&__pin {
+		width: 20%;
+		background: $dark-gray;
+		color: white;
+	}
+
+	&__description {
+		padding: 1rem;
+
+		&__text {
+			padding: 1rem 0;
+		}
+	}
+}
+
+.user-details {
+	padding: 1rem;
+
+	p {
+		padding: .5rem 0;
+	}
+
+	svg {
+		margin-right: .5rem;
+	}
+
+	li {
+		color: $darker-gray;
+	}
+}

@@ -1,0 +1,130 @@
+* {
+	font-family: $raleway;
+}
+
+li {
+	list-style-type: none;
+	line-height: 1.5rem;
+}
+
+// Alignment & Position
+.align-center {
+	align-self: center;
+	justify-self: center;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 1rem;
+	font-size: .8rem;
+	font-weight: 100;
+}
+
+.centered {
+	width: 100%;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-evenly {
+	justify-content: space-evenly;
+}
+
+// Borders
+.border-bottom {
+	border-bottom: $border;
+}
+
+// Text
+.link,
+a {
+	color: $brand-color;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.sm-text {
+	font-size: .5rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.white-text {
+	color: white;
+}
+
+.gray-text {
+	color: $medium-gray;
+}
+
+.brand-text {
+	color: $brand-color;
+}
+
+// Wrappers
+.container {
+	display: flex;
+	align-content: center;
+	width: 100vw;
+	justify-content: center;
+	min-height: 100vh;
+	flex-wrap: wrap;
+}
+
+.column {
+	min-height: 100vh;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+}
+
+.wrapper {
+	background-color: white;
+	padding: 1rem;
+}
+
+// Sizing
+.w-70 {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.w-30 {
+		min-width: 25vw;
+	}
+
+	.w-70 {
+		min-width: 70vw;
+	}
+}
+
+// Hidden elements (display none)
+.d-none-xs {
+	display: none;
+
+	@media (min-width: 768px) {
+		display: initial;
+	}
+}
+
+.d-none-md {
+	@media (min-width: 768px) {
+		display: none;
+	}
+}
+
+// Elements
+.pointer {
+	cursor: pointer;
+}
+
+// Main
+.App {
+	display: flex;
+}

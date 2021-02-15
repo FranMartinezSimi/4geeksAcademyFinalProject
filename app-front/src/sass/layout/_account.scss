@@ -1,0 +1,64 @@
+.user {
+	width: 80%;
+	margin: 0 auto;
+
+	@media (min-width: 768px) {
+		width: 55%;
+	}
+
+	&__card {
+		padding-top: 3rem;
+		padding-bottom: 2rem;
+		text-align: center;
+
+		img {
+			margin-bottom: 1rem;
+		}
+	}
+	&__data {
+		margin: 0 auto;
+
+		&__container {
+			display: flex;
+			flex-wrap: wrap;
+			padding: .5rem;
+			width: 100%;
+			align-items: center;
+
+			&__edit {
+				min-width: 20%;
+			}
+
+			h5 {
+				font-size: 1rem;
+			}
+
+			span {
+				margin: 0 .5rem;
+				color: #ada7a7;
+				font-size: 70%;
+			}
+
+			input {
+				border: none;
+				padding: .2rem 1rem .2rem .2rem;
+				margin-left: .5rem;
+				outline: none;
+				border-radius: 0;
+			}
+
+			input:focus,
+			textarea:focus {
+				border-bottom: 1px solid $brand-color;
+			}
+		}
+	}
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: initial;
+}

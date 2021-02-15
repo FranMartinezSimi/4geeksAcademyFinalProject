@@ -1,0 +1,47 @@
+.history {
+	&__title {
+		padding: 1vh 7vw;
+		background: $brand-color;
+
+		h2 {
+			color: white;
+			font-size: 1rem;
+		}
+
+		&--inactive {
+			margin-top: 2rem;
+			padding: 1vh 7vw;
+			background: $light-color;
+
+			h2 {
+				color: white;
+				font-size: 1rem;
+			}
+		}
+	}
+
+	&__task-holder {
+		display: flex;
+		border-bottom: 1px solid $light-gray;
+		padding-right: 1rem;
+
+		&__text {
+			width: 100%;
+			font-size: 80%;
+			text-align: center;
+			color: $brand-color;
+
+			&--inactive {
+				font-size: 80%;
+				color: $light-gray;
+				text-align: center;
+			}
+
+			&--completed {
+				font-size: 80%;
+				color: $success;
+				text-align: center;
+			}
+		}
+	}
+}

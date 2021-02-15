@@ -1,0 +1,51 @@
+form {
+	padding: 1rem;
+	box-sizing: border-box;
+	color: $darker-gray;
+}
+
+label {
+	display: block;
+	padding: 1.3rem 0 .5rem;
+}
+
+input,
+select,
+textarea {
+	padding: 0.5rem;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid $light-gray;
+	color: $medium-gray;
+	background-color: white;
+	border-radius: 5px;
+}
+
+select {
+	height: 2.2rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+	border: 1px solid $brand-color;
+}
+
+.payment {
+	min-width: 94%;
+	margin-left: 0.4rem;
+}
+
+::placeholder {
+	color: $medium-gray;
+}
+
+.error {
+	background: #f39e9ea6;
+	color: #903333;
+	font-size: .7rem;
+	padding: .3rem;
+	margin-top: 2px;
+	border-radius: 4px;
+}

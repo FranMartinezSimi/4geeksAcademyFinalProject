@@ -1,0 +1,61 @@
+.application {
+	border-collapse: collapse;
+
+	td {
+		padding: .5rem;
+
+		h5 {
+			font-size: initial;
+		}
+	}
+
+	th {
+		background-color: $brand-color;
+		padding: .2rem 0;
+		border: none;
+
+		h6 {
+			color: white;
+			font-weight: lighter;
+		}
+
+		h5,
+		h6 {
+			font-size: initial;
+		}
+	}
+
+	tr {
+		border-bottom: $border;
+	}
+
+	td:nth-child(2) {
+		text-align: center;
+	}
+
+	button {
+		margin: auto;
+		padding: 0.5rem 1.1rem;
+	}
+	.user {
+		display: flex;
+		margin: 0;
+		width: auto;
+
+		&__thumbnail {
+			/* width: 40px;
+			height: 40px; */
+			border-radius: 100%;
+			background: $light-gray;
+			margin-right: .5em;
+		}
+
+		/* &__text {
+			width: 65%;
+		} */
+	}
+}
+
+blockquote {
+	color: gray;
+}

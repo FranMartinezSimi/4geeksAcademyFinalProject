@@ -1,0 +1,33 @@
+.sidebar {
+	padding: 2rem 1rem;
+	border-right: $border;
+	min-height: 100vh;
+
+	@media (min-width: 992px) {
+		padding: 2rem;
+	}
+
+	li {
+		list-style: none;
+		line-height: 3rem;
+	}
+
+	.logo {
+		padding: 1rem 0 2rem;
+		text-align: center;
+	}
+
+	&__menu {
+		width: 69%;
+		margin: 0 auto;
+	}
+
+	svg {
+		display: none;
+
+		@media (min-width: 768px) {
+			display: initial;
+			margin-right: .5rem;
+		}
+	}
+}

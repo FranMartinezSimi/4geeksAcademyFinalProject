@@ -1,0 +1,29 @@
+[
+	{
+		"id": 1,
+		"name": "Andres",
+		"lastname": "Sotomayor",
+		"rut": "15.245.345-1",
+		"email": "andressotomayor@gmail.com",
+		"username": "Perseguido",
+		"password": "12345678"
+	},
+	{
+		"id": 2,
+		"name": "Jorge",
+		"lastname": "Ragio",
+		"rut": "2.125.743-2",
+		"email": "jorgeragio@gmail.com",
+		"username": "ElPelado",
+		"password": "98765432"
+	},
+	{
+		"id": 3,
+		"name": "Simon",
+		"lastname": "Lara",
+		"rut": "12.485.263",
+		"email": "simonlara@gmail.com",
+		"username": "Compilando",
+		"password": "45612398"
+	}
+]
